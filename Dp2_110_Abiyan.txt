@@ -1,0 +1,33 @@
+program makanan;
+uses crt;
+
+var menu: integer;
+
+begin
+clrscr;
+
+writeln('---------------------------------------------------------------------');
+writeln('                         Kantin Fasilkom-Ti                          ');
+writeln(' 001. Ayam Bakar                                                     ');
+writeln(' 011. Ayam Geprek                                                    ');
+writeln(' 100. Ayam Penyet                                                    ');
+writeln(' 110. Ayam pop                                                       ');
+writeln(' 101. Soto Ayam                                                      ');
+writeln('---------------------------------------------------------------------');
+writeln;
+write('Pilih nomor menu makanan anda: ');
+readln(menu);
+case (menu) of
+    001: writeln('Ayam Bakar  Rp.15000 ');
+    011: writeln('Ayam Geprek Rp.15000 ');
+    100: writeln('Ayam Penyet Rp.15000 ');
+    110: writeln('Ayam pop    Rp.20000 ');
+    101: writeln('Soto Ayam   Rp.10000 ');
+
+else 
+    begin 
+        writeln(' Menu Tidak Tersedia');
+     end;   
+end;
+
+end.
