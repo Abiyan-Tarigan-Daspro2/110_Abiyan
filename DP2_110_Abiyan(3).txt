@@ -1,0 +1,12 @@
+program Tugas2_dp2;
+uses crt;
+begin
+    clrscr;
+    writeln('      *      ');
+    writeln('    * * *    ');
+    writeln('  * * * * *  ');
+    writeln('* * * * * * *');
+    writeln('  * * * * *  ');
+    writeln('    * * *    ');
+    writeln('      *      ');
+end.

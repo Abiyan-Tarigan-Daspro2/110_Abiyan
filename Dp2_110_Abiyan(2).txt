@@ -1,0 +1,10 @@
+program tugas2_dp2;
+uses crt;
+begin
+    clrscr;
+    writeln('*');
+    writeln('2 2');
+    writeln('* * *');
+    writeln('4 4 4 4');
+    writeln('* * * * *');
+end.
